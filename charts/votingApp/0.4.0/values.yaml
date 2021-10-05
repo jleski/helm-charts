@@ -15,5 +15,5 @@ worker:
 
 # Ingress and external hostname (FQDN) to use
 ingress: false
-vote-address: vote.example.com
-results-address: results.example.com
+vote_address: vote.example.com
+results_address: results.example.com
