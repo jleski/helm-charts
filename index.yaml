@@ -3,6 +3,16 @@ entries:
   votingApp:
   - apiVersion: v2
     appVersion: 1.0.0
+    created: "2021-10-05T11:25:19.360122+03:00"
+    description: Demo voting app packaged with Helm.
+    digest: 1f48675caa15596cc2073bb34c86a6cd8acba0bc8a42a1d25b5059dee0407578
+    name: votingApp
+    type: application
+    urls:
+    - https://github.com/jleski/helm-charts/releases/download/votingApp-0.4.0/votingApp-0.4.0.tgz
+    version: 0.4.0
+  - apiVersion: v2
+    appVersion: 1.0.0
     created: "2021-08-30T19:16:54.171718+03:00"
     description: A Helm chart describing the VotingApp
     digest: 2ee5a42f78d7dfabbfd3abd8975b0d0aa89f4f30ddb65f878961060104f21a49
@@ -31,4 +41,4 @@ entries:
     urls:
     - https://github.com/jleski/helm-charts/releases/download/votingApp-0.1.0/votingApp-0.1.0.tgz
     version: 0.1.0
-generated: "2021-08-30T19:16:54.171752+03:00"
+generated: "2021-10-05T11:25:19.360175+03:00"
