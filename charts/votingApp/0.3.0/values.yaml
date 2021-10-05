@@ -1,5 +1,5 @@
 # Image registry with repository
-registry:  cr.alusta.cloud/demo
+registry: cr.alusta.cloud/demo
 
 # Version of the VotingApp among v1, v2 and v3
 version: v2
@@ -13,8 +13,7 @@ images:
 worker:
   language: go
 
-# Ingress
+# Ingress and external hostname (FQDN) to use
 ingress: false
-
-# Serve over https
-tls: false
+vote-address: vote.example.com
+results-address: results.example.com
